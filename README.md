@@ -1,1 +1,1 @@
-Seth's Project Page 
+# Seth Turney's Project Page
