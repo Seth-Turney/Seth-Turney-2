@@ -1,0 +1,160 @@
+/* Global Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: lemonchiffon;
+}
+
+#container {
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: black ;
+}
+
+a:hover{
+    color: lemonchiffon;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+nav {
+    background-color: rgb(215, 215, 254);
+    padding: 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: cornflowerblue;
+}
+
+header h1 {
+    font-size: 35px;
+    color: white;
+}
+
+main{
+    border: 2px solid black ;
+   padding: 10px; 
+   margin: 10px;
+}
+
+#lower {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.column {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgb(215, 215, 254);
+    width: 125px;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.button:hover{
+    color: lemonchiffon;
+}
+
+/* Tablet Style */
+
+@media (min-width: 786px) {
+    nav {
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 200px;
+    }
+
+    main img {
+    width: 50%;
+    }
+
+    #lower {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .column img {
+    width: 45%;
+    }
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container{
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    #lower {
+        width: 100%;
+       display: flex; 
+       padding: 0px;
+    }
+    .column {
+        width: 33.33%;
+    }
+
+    header img {
+        width: 50%;
+    }
+}
