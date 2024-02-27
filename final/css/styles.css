@@ -1,0 +1,268 @@
+/* GLobal Styles */
+body {
+    background-color: black; 
+    font-family: "Delicious Handrawn", cursive;  
+}
+      
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    padding: 5px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: maroon;
+    text-decoration: none;
+}
+
+#container {
+    background-color: silver;
+    width: 75%;
+    margin: 20px auto;
+    border: 4px solid maroon;
+    padding: 10px;
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+    text-align: center;
+    color: maroon;
+    text-shadow: 1px 1px 1px black;
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;      
+}
+
+/* Mobile Styles */
+nav {
+    background-color: gray;
+    padding: 2px 0;
+    text-align: center;
+    border: 2px solid black;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    color: maroon;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+main {
+    padding: 10px;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+main img {
+    width: 25%;
+}
+
+#lower {
+    display: block;
+    padding: 10px;
+}
+
+#References {
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.column {
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    border: 2px solid black;
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    background-color: gray;
+    border: 2px solid black;
+}
+
+hr {
+    width: 101%;
+}
+
+.button {
+    display:block;
+    background-color: black;
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_1 {
+    display: inline-block;
+    background-color: black;
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+}
+
+.button_2 {
+    display: inline-block;
+    background-color: black;
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+}
+
+.button_3 {
+    display: inline-block;
+    background-color: black;
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+}
+
+.button_4 {
+    display: inline-block;
+    background-color: black;
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+}
+
+.button_5 {
+    display: inline-block;
+    background-color: black;
+    width: 125px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+}
+
+.button:hover {
+    color: maroon;
+}
+
+/* Tablet Style */
+
+@media (min-width: 768px) {
+    nav {
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 200px;
+    }
+
+    main img {
+    width: 50%;
+    }
+
+    #lower {
+        width: 75%;
+        margin: 20px auto;
+    }
+
+    .column img {
+    width: 45%;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container{
+        width: 75%;
+        margin: 20px auto;
+    }
+
+    #lower {
+        width: 100%;
+       display: flex; 
+       padding: 0px;
+    }
+    .column {
+        width: 25%;
+        margin: 5px;
+    }
+
+    header img {
+        width: 50%;
+    }
+}
